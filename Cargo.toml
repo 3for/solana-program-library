@@ -27,6 +27,7 @@ members = [
   "utils/cgen",
   "utils/test-client",
   "token-lending/flash_loan_receiver",
+  "examples/rust/transfer-lamports/client",
 ]
 exclude = [
   "themis/client_ristretto",

@@ -4564,6 +4564,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "transfer-lamports-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-sdk",
+]
+
+[[package]]
 name = "try-lock"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
