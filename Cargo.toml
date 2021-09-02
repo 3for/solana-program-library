@@ -28,6 +28,9 @@ members = [
   "utils/test-client",
   "token-lending/flash_loan_receiver",
   "examples/rust/transfer-lamports/client",
+  "examples/rust/sysvar/client",
+  "examples/rust/logging/client",
+  "examples/rust/custom-heap/client",
 ]
 exclude = [
   "themis/client_ristretto",

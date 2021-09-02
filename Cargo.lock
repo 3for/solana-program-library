@@ -707,6 +707,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom-heap-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-sdk",
+]
+
+[[package]]
 name = "dashmap"
 version = "4.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1670,6 +1682,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710"
 dependencies = [
  "cfg-if 1.0.0",
+]
+
+[[package]]
+name = "logging-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-sdk",
 ]
 
 [[package]]
@@ -3940,6 +3964,19 @@ dependencies = [
  "quote 1.0.9",
  "syn 1.0.69",
  "unicode-xid 0.2.1",
+]
+
+[[package]]
+name = "sysvar-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-program",
+ "solana-sdk",
 ]
 
 [[package]]
