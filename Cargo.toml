@@ -31,6 +31,11 @@ members = [
   "examples/rust/sysvar/client",
   "examples/rust/logging/client",
   "examples/rust/custom-heap/client",
+  "examples/rust/invoke",
+  "examples/rust/invoked",
+  "examples/rust/invoked/client",
+  "examples/rust/noop",
+  "examples/rust/noop/client",
 ]
 exclude = [
   "themis/client_ristretto",

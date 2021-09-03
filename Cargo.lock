@@ -1510,6 +1510,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "invoked-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-sdk",
+]
+
+[[package]]
 name = "iovec"
 version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1819,6 +1831,18 @@ dependencies = [
  "cc",
  "cfg-if 1.0.0",
  "libc",
+]
+
+[[package]]
+name = "noop-client"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "env_logger",
+ "log",
+ "solana-cli-config",
+ "solana-client",
+ "solana-sdk",
 ]
 
 [[package]]
@@ -2975,6 +2999,28 @@ dependencies = [
  "solana-sdk",
  "solana_rbpf",
  "thiserror",
+]
+
+[[package]]
+name = "solana-bpf-rust-invoke"
+version = "1.8.0"
+dependencies = [
+ "solana-bpf-rust-invoked",
+ "solana-program",
+]
+
+[[package]]
+name = "solana-bpf-rust-invoked"
+version = "1.8.0"
+dependencies = [
+ "solana-program",
+]
+
+[[package]]
+name = "solana-bpf-rust-noop"
+version = "1.8.0"
+dependencies = [
+ "solana-program",
 ]
 
 [[package]]
